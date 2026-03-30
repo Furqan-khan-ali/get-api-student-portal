@@ -8,9 +8,9 @@ app.use(express.json());
 
 // SQL Server config
 const dbConfig = {
-    user: 'sa',                // your SQL username
-    password: 'Admin@SQL',           // your SQL password
-    server: 'SERVERPC',    // or YOUR_PC_NAME\SQLEXPRESS
+    user: 'sa',                
+    password: 'Admin@SQL',       
+    server: 'SERVERPC',   
     database: 'sesDB',
     options: {
         encrypt: false,
@@ -18,7 +18,7 @@ const dbConfig = {
     }
 };
 
-// GET API (Fetch data)
+ 
 // app.get("/users", async (req, res) => {
 //     try {
 //         let pool = await sql.connect(dbConfig);
